@@ -36,6 +36,7 @@ jobs:
       - run:
           name: Front-End Lint
           command: |
+            npm run frontend:install
             npm run frontend:lint
       - run:
           name: Front-End Build
