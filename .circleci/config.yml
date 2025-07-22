@@ -41,10 +41,12 @@ jobs:
       - run:
           name: Front-End Build
           command: |
+            npm run api:install
             npm run frontend:build 
       - run:
           name: API Build
           command: |
+            npm run api:install
             npm run api:build
   deploy:
     docker:
@@ -58,7 +60,6 @@ jobs:
       - checkout
       - run:
           name: Deploy App
-          # TODO: Install, build, deploy in both apps
           command: |
             npm run api:install
             npm run frontend:install
