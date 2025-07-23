@@ -57,7 +57,7 @@ This application is  The udagram application is a fairly simple application that
 ### Hosting Infrastructure
 
 The Front end is hosted on an AWS S3 Bucket and the back end an Elsatic Beanstalk instance, behind this there is a postgresql database also hosted on AWS RDS. 
-![image](https://github.com/daniel-tickell/nd0067-c4-deployment-process-project-starter/blob/master/docs/Service%20Diagram.png)
+![image](https://github.com/daniel-tickell/nd0067-c4-deployment-process-project-starter/blob/master/docs/Service%20Diagram.jpg)
 
 ### Deployment Pipeline 
 
