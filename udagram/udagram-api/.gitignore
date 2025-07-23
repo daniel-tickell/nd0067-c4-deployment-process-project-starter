@@ -37,3 +37,6 @@ UserInterfaceState.xcuserstate
 node_modules
 venv/
 .env
+
+
+package-lock.json
